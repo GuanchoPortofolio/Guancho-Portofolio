@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Juan Antonio Núñez López — Arquitecto. Diseño residencial y comercial, dirección de obra y consultoría arquitectónica." />
+    <!-- Updated theme color to matches new dark theme -->
+    <meta name="theme-color" content="#0a0a0a">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Juan Núñez López | Arquitecto</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home" aria-label="Inicio">
+                <span class="brand-name">Juan Núñez López</span>
+                <span class="brand-role">Arquitecto</span>
+            </a>
+            <button class="mobile-nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Inicio</a></li>
+                    <li><a href="#services" class="nav-link">Servicios</a></li>
+                    <li><a href="#portfolio" class="nav-link">Proyectos</a></li>
+                    <li><a href="Curriculum Arq. Juan Antonio Nuñez Lopez 2025.pdf" class="nav-link highlight"
+                            target="_blank" rel="noopener">Curriculum</a></li>
+                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero" aria-label="Inicio">
+            <div class="hero-bg-wrapper">
+                <img class="hero-bg" src="Apartment.jpg" alt="Interior de apartamento moderno diseñado por Juan Núñez"
+                    loading="eager">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container hero-content fade-in-up">
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Arquitectura</span>
+                    <span class="hero-title-line">que trasciende</span>
+                </h1>
+                <p class="hero-lead">Diseño atemporal donde la funcionalidad encuentra su máxima expresión estética.
+                    Creando espacios que inspiran y perduran.</p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="#portfolio">Ver Portfolio</a>
+                    <a class="btn secondary" href="#contact">Hablemos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-badge">Lo que hago</span>
+                    <h2 class="section-title">Servicios Integrales</h2>
+                    <p class="section-subtitle">Excelencia técnica y creativa en cada fase</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card fade-in-up delay-100">
+                        <div class="service-icon">📐</div>
+                        <h3 class="service-title">Diseño Arquitectónico</h3>
+                        <p class="service-desc">Planificación conceptual y ejecutiva de espacios residenciales y
+                            comerciales, fusionando la visión del cliente con innovación espacial.</p>
+                    </article>
+                    <article class="service-card fade-in-up delay-200">
+                        <div class="service-icon">🏗️</div>
+                        <h3 class="service-title">Dirección de Obra</h3>
+                        <p class="service-desc">Supervisión técnica rigurosa. Aseguramos que cada detalle constructivo
+                            cumpla con los más altos estándares de calidad.</p>
+                    </article>
+                    <article class="service-card fade-in-up delay-300">
+                        <div class="service-icon">✨</div>
+                        <h3 class="service-title">Interiorismo</h3>
+                        <p class="service-desc">Curaduría de materiales, iluminación y mobiliario para crear atmósferas
+                            que evocan emociones y mejoran la habitabilidad.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section portfolio">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-badge">Mi Trabajo</span>
+                    <h2 class="section-title">Proyectos Destacados</h2>
+                    <p class="section-subtitle">Una colección de espacios curados</p>
+                </div>
+                <!-- New Gallery Grid Structure -->
+                <div class="portfolio-gallery">
+                    <article class="gallery-item item-large fade-in-up delay-100">
+                        <div class="gallery-img-wrapper">
+                            <img src="Apartment.jpg" alt="Diseño de Apartamento Residencial" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-info">
+                            <span class="project-cat">Interiorismo</span>
+                            <h3 class="project-title">Residencia Moderna</h3>
+                            <p class="project-desc">Renovación integral enfocada en luz natural y materiales nobles.</p>
+                        </div>
+                    </article>
+                    <article class="gallery-item item-tall fade-in-up delay-200">
+                        <div class="gallery-img-wrapper">
+                            <img src="House.jpg" alt="Fachada de Casa Moderna" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-info">
+                            <span class="project-cat">Residencial</span>
+                            <h3 class="project-title">Casa de Campo</h3>
+                            <p class="project-desc">Arquitectura vernácula con un toque contemporáneo.</p>
+                        </div>
+                    </article>
+                    <article class="gallery-item item-normal fade-in-up delay-300">
+                        <div class="gallery-img-wrapper">
+                            <img src="House2.jpg" alt="Visualización 3D de Vivienda" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-info">
+                            <span class="project-cat">Visualización 3D</span>
+                            <h3 class="project-title">Villa Minimalista</h3>
+                            <p class="project-desc">Exploración de volúmenes puros en entorno costero.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="contact-layout">
+                    <div class="contact-info fade-in-up">
+                        <span class="section-badge">Contacto</span>
+                        <h2 class="section-title">Inicie su Proyecto</h2>
+                        <p class="contact-lead">Estoy listo para escuchar su visión y transformarla en realidad.
+                            Complete el formulario o contácteme directamente.</p>
+
+                        <div class="contact-methods">
+                            <div class="method-item">
+                                <span class="method-icon">📞</span>
+                                <div>
+                                    <span class="method-label">Línea Directa</span>
+                                    <a href="tel:+18099664860" class="method-link">809-966-4860</a>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <span class="method-icon">✉️</span>
+                                <div>
+                                    <span class="method-label">Email</span>
+                                    <a href="mailto:arq.nunezl@hotmail.com" class="method-link">juan.ant772@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <span class="method-icon">💬</span>
+                                <div>
+                                    <span class="method-label">WhatsApp</span>
+                                    <a href="https://wa.me/18099664860" target="_blank" class="method-link">Escribir
+                                        Mensaje</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Functional Form -->
+                    <div class="contact-form-wrapper fade-in-up delay-200">
+                        <form action="https://formsubmit.co/arq.nunezl@hotmail.com" method="POST"
+                            class="main-contact-form">
+                            <!-- Anti-spam honeypot -->
+                            <input type="text" name="_honey" style="display:none">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_subject" value="Nuevo Mensaje del Portafolio">
+
+                            <div class="form-grid">
+                                <div class="input-group">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" id="name" name="name" required placeholder="Su nombre completo">
+                                </div>
+                                <div class="input-group">
+                                    <label for="email">Correo Electrónico</label>
+                                    <input type="email" id="email" name="email" required
+                                        placeholder="correo@ejemplo.com">
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="phone">Teléfono (Opcional)</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 809...">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" required
+                                    placeholder="Cuénteme los detalles de su proyecto..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn primary full-width">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-col">
+                <div class="footer-brand">
+                    <span class="footer-name">Juan Núñez López</span>
+                    <span class="footer-role">Arquitecto</span>
+                </div>
+                <p class="copyright">© <span id="year"></span> Juan Núñez López.<br>Todos los derechos reservados.</p>
+            </div>
+        </div>
+
+        <div class="domination-signature"
+            style="text-align: center; margin-top: 3rem; font-family: sans-serif; font-size: 0.75rem; color: #444;">
+            Made by <span
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1px; background: linear-gradient(90deg, #d53369, #daae51); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Domination</span>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div id="project-modal" class="modal" aria-hidden="true">
+        <div class="modal-overlay" tabindex="-1" data-close></div>
+        <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" aria-label="Cerrar modal" data-close>×</button>
+            <div class="modal-content">
+                <!-- Content injected via JS -->
+                <div class="modal-header">
+                    <span id="modal-cat" class="project-cat">Categoría</span>
+                    <h2 id="modal-title" class="section-title">Título del Proyecto</h2>
+                </div>
+                <div class="modal-body">
+                    <img id="modal-img" src="" alt="" class="modal-image">
+                    <p id="modal-desc" class="modal-description">Descripción detallada del proyecto...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/18099664860?text=Hola%20Juan,%20quisiera%20cotizar..." class="floating-whatsapp"
+        target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <img src="Whatsapp.png" alt="WhatsApp" width="32" height="32">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
